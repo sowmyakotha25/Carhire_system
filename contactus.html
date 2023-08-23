@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function preventBack() {
+            window.history.forward();
+        }
+
+        setTimeout("preventBack()", 0);
+
+        window.onunload = function() {
+            null
+        };
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="cont.css">
+    <title>Document</title>
+</head>
+
+<body style="background-image: url('contactus.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+    <section class="contact">
+        <div>
+
+            <button style="
+                width: 150px;
+                background: rgb(186, 85, 26);
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 18px;
+                margin-left:-600px;
+                margin-top: -100px;
+            "><a href="index.php" style="
+            text-decoration: none;
+            color: #fff;">Go To Home</a></button>
+        </div>
+        <div class="content">
+            <h1><b>CONTACT US</b></h1>
+
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fas fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h2>Address</h2>
+                        <p>venkateswara swamy temple,padamata,vijayawada<br>Andhra pradesh<br>520010</p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>6301994632</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>sumanth@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
